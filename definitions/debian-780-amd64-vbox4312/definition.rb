@@ -1,9 +1,9 @@
 #Thanks to Fletcher Nichol - https://github.com/fnichol
 
 Veewee::Definition.declare({
-  :cpu_count => '1',
-  :memory_size=> '256',
-  :disk_size => '10140', :disk_format => 'VDI', :hostiocache => 'off',
+  :cpu_count => '2',
+  :memory_size=> '2048',
+  :disk_size => '20280', :disk_format => 'VDI', :hostiocache => 'off',
   :os_type_id => 'Debian_64',
   :iso_file => "debian-7.7.0-amd64-netinst.iso",
   :iso_src => "http://cdimage.debian.org/cdimage/archive/7.7.0/amd64/iso-cd/debian-7.7.0-amd64-netinst.iso",
@@ -44,7 +44,7 @@ Veewee::Definition.declare({
     #"vmfusion.sh",
     "ruby.sh",
     "puppet.sh",
-    "chef.sh",
+    #"chef.sh",
     "cleanup.sh",
     "zerodisk.sh"
   ],
