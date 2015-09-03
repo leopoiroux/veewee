@@ -5,7 +5,7 @@
     $ rbenv install 2.1.2
 
 # Veewee
-    $ rbenv local 1.9.2-p320
+    $ rbenv local 2.1.2
     $ rbenv rehash
     $ gem install bundler
     $ bundle install
