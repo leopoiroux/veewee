@@ -11,13 +11,13 @@
     $ bundle install
 
 # Définir des boxes
-    $ bundle exec veewee vbox define 'debian-780-amd64-vbox4318' 'Debian-7.8.0-amd64-netboot'
+    $ bundle exec veewee vbox define 'debian-7ç0-amd64-vbox4330' 'Debian-7.9.0-amd64-netboot'
 
 # Compiler les boxes
-    $ bundle exec veewee vbox build 'debian-780-amd64-vbox4318' --force --auto
+    $ bundle exec veewee vbox build 'debian-790-amd64-vbox4330' --force --auto
 
 # Valider les boxes
-    $ bundle exec veewee vbox validate 'debian-780-amd64-vbox4318'
+    $ bundle exec veewee vbox validate 'debian-790-amd64-vbox4330'
 
 # Exporter les boxes
-    $ bundle exec veewee vbox export 'debian-780-amd64-vbox4318'
+    $ bundle exec veewee vbox export 'debian-790-amd64-vbox4330'
